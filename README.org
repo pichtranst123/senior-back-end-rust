@@ -50,7 +50,7 @@ This project is a Rust-based back-end developer training course for beginners. T
 ** Chapter 8: Message Queue System (MQ) and Applications
 - Section 1: Message Queue System with Kafka | Microservice System.
 - Section 2: Message Queue System with RabbitMQ | Microservice System.
-- Section 3: Project separation with Microservice Architecture, testing rabbitmq vs jest | Advanced Level.
+- Section 3: Project separation with Microservice Architecture, testing rabbitmq | Advanced Level.
 
 ** Chapter 9: Getting Started with Microservice and Message Queue
 - Section 1: First steps in Microservice vs Message Queue
@@ -58,8 +58,8 @@ This project is a Rust-based back-end developer training course for beginners. T
 - Section 3: Handling messages when MQ server dies (TTL)
 
 ** Chapter 10: Handling Message Errors in Message Queue Architecture
-- Section 2: Sorting messages in Pub/Sub or Queues | Microservices Backend System.
-- Section 4: Practical on sorting messages with two scenarios | RabbitMQ | Microservices Backend System.
+- Section 1: Sorting messages in Pub/Sub or Queues | Microservices Backend System.
+- Section 2: Practical on sorting messages with two scenarios | RabbitMQ | Microservices Backend System.
 
 ** Chapter 11: Configuring PostgreSQL and Optimization
 - Section 1: Setting up PostgreSQL master-slave | SQL.
@@ -76,7 +76,7 @@ This project is a Rust-based back-end developer training course for beginners. T
 - Section 3: Using multer vs cloudinary for Multiple File Upload (3)
 
 ** Chapter 14: Amazon Web Services (AWS) and File Management
-- Section 1: Introduction to Amazon Web Service (AWS) vs Regis...
+- Section 1: Introduction to Amazon Web Service (AWS)
 - Section 2: Introduction to Amazon Web Service (AWS) Setting up S3 Bucket vs Security (2).
 - Section 3: Uploading Images to S3 from Back End Node | AWS.
 - Section 4: AWS - S3 Deployment Backend Service with S3 Linking and testing URL speed.
