@@ -1,0 +1,82 @@
+#+TITLE: Become a Senior Back-end Developer with Rust
+#+AUTHOR: Dang Quang Vu
+#+EMAIL: eamondang@gmail.com
+#+SETUPFILE: ~/theme-readtheorg.setup
+#+HTML_HEAD: <style>pre.src{background:#343131;color:white;} </style>
+
+* Introduction
+This project is a Rust-based back-end developer training course for beginners. The course is designed to help you become a pre-senior back-end developer with Rust if you understand all of thing in this course and can use it on your project.
+
+* Roadmap:
+** Chapter 1: Getting Started with Rust, Axum, and Tokio
+- Section 1: Initializing a project with Rust, Axum, and Tokio: Creating the necessary directories and packages for the project.
+- Section 2: Connecting Postgres with Rust and Axum using sqlx
+- Section 3: API Service Products - Enhancing the Product structure.
+
+** Chapter 2: Product Design and Management
+- Section 1: Designing the API Service Product combining Factory and Strategy efficiently
+- Section 2: Adding features like isDraft, isPublish, unPublish and extending the Product Service API schema.
+- Section 3: Remaining features: findAll, findOne, selectData, unSelectData in Product Service API.
+- Section 4: Updates with POST, PUT, PATCH in Product Service API.
+- Section 5: Inventories Model vs Services.
+- Section 6: Discount Model in E-commerce.
+- Section 7: Implementing Discount Service in E-commerce with 6 features.
+- Section 8: Discount Service in E-commerce Part 2
+
+** Chapter 3: Managing Cart and Orders
+- Section 1: Cart Service in E-commerce Part
+- Section 2: Order API Service
+
+** Chapter 4: Redis and Basic Knowledge
+- Section 1: Redis String
+- Section 2: Redis Hash
+- Section 3: Redis List
+- Section 4: Redis Sets
+
+** Chapter 5: Advanced Approaches with Redis
+- Section 1: Redis Zset - Common commands for aggregating popular products, views, and follows.
+- Section 2: Redis Transactions - How to use in large projects.
+
+** Chapter 6: Pub/Sub and Nested Comments
+- Section 1: Publish/Subscribe in Redis
+- Section 2: Implementing Nested Comment System
+
+** Chapter 7: Managing Notifications and Message Queue System
+- Section 1: How to calculate and delete comments
+- Section 2: Implementing Notifications System
+- Section 3: Analyzing user behavior applying PUSH or PULL in the notification system
+- Section 4: Notification Service | Next is separating Message Queue System.
+
+** Chapter 8: Message Queue System (MQ) and Applications
+- Section 1: Message Queue System with Kafka | Microservice System.
+- Section 2: Message Queue System with RabbitMQ | Microservice System.
+- Section 3: Project separation with Microservice Architecture, testing rabbitmq vs jest | Advanced Level.
+
+** Chapter 9: Getting Started with Microservice and Message Queue
+- Section 1: First steps in Microservice vs Message Queue
+- Section 2: Handling message errors or TTL (Time to Live) in Message Queue System?
+- Section 3: Handling messages when MQ server dies (TTL)
+
+** Chapter 10: Handling Message Errors in Message Queue Architecture
+- Section 2: Sorting messages in Pub/Sub or Queues | Microservices Backend System.
+- Section 4: Practical on sorting messages with two scenarios | RabbitMQ | Microservices Backend System.
+
+** Chapter 11: Configuring PostgreSQL and Optimization
+- Section 1: Setting up PostgreSQL master-slave | SQL.
+- Section 2: Practical exercise creating 10,000,000 test records in PostgreSQL for small levels.
+
+** Chapter 12: Database Partitioning and PostgreSQL Indexing
+- Section 1: Database Partitioning, Very important (1).
+- Section 2: Database Partitioning for high level, DBA | Part 2.
+- Section 3: PostgreSQL Indexing - Common mistakes to avoid.
+
+** Chapter 13: Cloud vs Upload Services for API
+- Section 1: Introduction to Cloud vs Upload Services for API (1).
+- Section 2: Using multer vs cloudinary for File Upload (2).
+- Section 3: Using multer vs cloudinary for Multiple File Upload (3)
+
+** Chapter 14: Amazon Web Services (AWS) and File Management
+- Section 1: Introduction to Amazon Web Service (AWS) vs Regis...
+- Section 2: Introduction to Amazon Web Service (AWS) Setting up S3 Bucket vs Security (2).
+- Section 3: Uploading Images to S3 from Back End Node | AWS.
+- Section 4: AWS - S3 Deployment Backend Service with S3 Linking and testing URL speed.
