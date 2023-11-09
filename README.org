@@ -4,6 +4,25 @@
 #+SETUPFILE: ~/theme-readtheorg.setup
 #+HTML_HEAD: <style>pre.src{background:#343131;color:white;} </style>
 
+
+* Table of Contents :TOC:
+- [[#introduction][Introduction]]
+- [[#roadmap][Roadmap:]]
+  - [[#chapter-1-getting-started-with-rust-axum-and-tokio][Chapter 1: Getting Started with Rust, Axum, and Tokio]]
+  - [[#chapter-2-product-design-and-management][Chapter 2: Product Design and Management]]
+  - [[#chapter-3-managing-cart-and-orders][Chapter 3: Managing Cart and Orders]]
+  - [[#chapter-4-redis-and-basic-knowledge][Chapter 4: Redis and Basic Knowledge]]
+  - [[#chapter-5-advanced-approaches-with-redis][Chapter 5: Advanced Approaches with Redis]]
+  - [[#chapter-6-pubsub-and-nested-comments][Chapter 6: Pub/Sub and Nested Comments]]
+  - [[#chapter-7-managing-notifications-and-message-queue-system][Chapter 7: Managing Notifications and Message Queue System]]
+  - [[#chapter-8-message-queue-system-mq-and-applications][Chapter 8: Message Queue System (MQ) and Applications]]
+  - [[#chapter-9-getting-started-with-microservice-and-message-queue][Chapter 9: Getting Started with Microservice and Message Queue]]
+  - [[#chapter-10-handling-message-errors-in-message-queue-architecture][Chapter 10: Handling Message Errors in Message Queue Architecture]]
+  - [[#chapter-11-configuring-postgresql-and-optimization][Chapter 11: Configuring PostgreSQL and Optimization]]
+  - [[#chapter-12-database-partitioning-and-postgresql-indexing][Chapter 12: Database Partitioning and PostgreSQL Indexing]]
+  - [[#chapter-13-cloud-vs-upload-services-for-api][Chapter 13: Cloud vs Upload Services for API]]
+  - [[#chapter-14-amazon-web-services-aws-and-file-management][Chapter 14: Amazon Web Services (AWS) and File Management]]
+
 * Introduction
 This project is a Rust-based back-end developer training course for beginners. The course is designed to help you become a pre-senior back-end developer with Rust if you understand all of thing in this course and can use it on your project.
 
