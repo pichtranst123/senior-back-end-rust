@@ -38,6 +38,11 @@ cargo install cargo-make
 cargo make build
 #+end_src
 
++ Run Database use Docker
+#+begin_src sh
+cargo make db
+#+end_src
+
 + Run server
 #+begin_src sh
 cargo make dev
