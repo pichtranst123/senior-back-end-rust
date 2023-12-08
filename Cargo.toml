@@ -1,14 +1,28 @@
-[package]
-name = "senior-back-end-rust"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = [
+  "crates/jayden_bin",
+  "crates/jayden_api",
+  "crates/jayden_core",
+  "crates/jayden_domain",
+  "crates/jayden_infrastructure"
+]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[profile.release]
+# debug = 1 means line charts only, which is minimum needed for good stack traces
+debug = 1
+# Write debug info into a separate file.
+split-debuginfo = 'packed'
+# Without stripping, sui binary size would be > 1GB.
+strip = 'debuginfo'
+# Exit process with SIGABRT when any thread panics
+panic = 'abort'
 
-[dependencies]
-axum = "0.7.2"
-config = "0.13.3"
-dotenv = "0.15.0"
-tokio = { version = "1.33.0", features = ["full"] }
-tracing = "0.1.40"
-tracing-subscriber = "0.3.17"
+# Same as release, but build binary with debug symbols (binary size will be ~ 1GB).
+[profile.release-dbgsym]
+inherits = "release"
+split-debuginfo = 'off'
+strip = 'none'
+
+[profile.bench]
+# For convenience.
+strip = 'none'

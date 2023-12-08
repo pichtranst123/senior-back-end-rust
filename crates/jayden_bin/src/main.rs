@@ -1,8 +1,10 @@
 use axum::{routing, Router};
+use dotenv::dotenv;
 use tracing::info;
 
 #[tokio::main]
 async fn main() {
+  dotenv().ok();
   tracing_subscriber::fmt::init();
 
   let app = Router::new().route("/", routing::get(hello_world));
