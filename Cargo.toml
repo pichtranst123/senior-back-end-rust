@@ -6,6 +6,7 @@ members = [
   "crates/jayden_domain",
   "crates/jayden_infrastructure"
 ]
+resolver = "2"
 
 [profile.release]
 # debug = 1 means line charts only, which is minimum needed for good stack traces

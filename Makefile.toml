@@ -41,3 +41,12 @@ cwd = "./crates/jayden_infrastructure"
 command = "sqlx"
 args = ["migrate", "run"]
 dependencies = ["postgres"]
+
+# Dockers & Database
+[tasks.db]
+command = "docker"
+args = ["compose", "-f", "./deploy/docker-compose.postgres.yml", "up", "--build"]
+
+[tasks.postgres]
+command = "docker"
+args = ["compose", "-f", "./deploy/docker-compose.postgres.yml", "start"]

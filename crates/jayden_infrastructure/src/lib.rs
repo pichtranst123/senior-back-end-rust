@@ -1,14 +1,8 @@
-pub fn add(left: usize, right: usize) -> usize {
-  left + right
-}
+use sqlx::{postgres::PgPoolOptions, Pool, Postgres};
 
-#[cfg(test)]
-mod tests {
-  use super::*;
+pub async fn initialized_database(dsn: &str, max_conns: u32) -> Pool<Postgres> {
+  let database = PgPoolOptions::new().max_connections(max_conns).connect(dsn).await.unwrap();
 
-  #[test]
-  fn it_works() {
-    let result = add(2, 2);
-    assert_eq!(result, 4);
-  }
+  sqlx::migrate!().run(&database).await.expect("Connect run migrations");
+  database
 }

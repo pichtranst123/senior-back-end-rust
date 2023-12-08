@@ -12,3 +12,7 @@ dotenv = "0.15.0"
 tokio = { version = "1.33.0", features = ["full"] }
 tracing = "0.1.40"
 tracing-subscriber = "0.3.17"
+
+#member
+jayden_core = { path = "../jayden_core" }
+jayden_infrastructure = { path = "../jayden_infrastructure" }
