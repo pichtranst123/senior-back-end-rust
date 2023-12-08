@@ -1,10 +1,9 @@
 [workspace]
 members = [
-  "crates/jayden_bin",
-  "crates/jayden_api",
   "crates/jayden_core",
-  "crates/jayden_domain",
-  "crates/jayden_infrastructure"
+  "crates/jayden_gateway",
+  "crates/jayden_infrastructure",
+  "crates/jayden_services/user_srv"
 ]
 resolver = "2"
 
