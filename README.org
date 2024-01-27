@@ -31,6 +31,7 @@ This project is a Rust-based back-end developer training course for beginners. T
 + install cargo-make
 #+begin_src sh
 cargo install cargo-make
+cargo install cargo-nextest
 #+end_src
 
 + Build
